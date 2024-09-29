@@ -5,7 +5,6 @@ import { createSlice } from "@reduxjs/toolkit";
     initialState:"",
     reducers:{
         setSingleItem:(state, action)=>{
-            console.log(action.payload)
             return action.payload;
         }
     }

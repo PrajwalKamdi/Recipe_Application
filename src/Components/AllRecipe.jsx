@@ -30,13 +30,13 @@ function AllRecipe() {
         <div className="border  flex justify-between items-center">
           <input
             type="text"
-            className="outline-none px-2"
+            className="outline-none px-2 w-full"
             ref={value}
             placeholder="Search For Recipe"
             onChange={ok}
           />
           <button className="border p-2 bg-slate-200">
-            <BiSearch />
+            <BiSearch size={20}/>
           </button>
         </div>
         <h1 className="text-xl font-semibold py-2 capitalize">

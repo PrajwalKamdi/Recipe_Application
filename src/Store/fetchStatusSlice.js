@@ -8,15 +8,12 @@ import { createSlice } from "@reduxjs/toolkit";
     },
     reducers: {
       fetchStatus:(state) =>{
-        console.log("fiest")
         return state.fetchDone=true;
       },
       currentlyFetching:(state)=>{
-        console.log("fiest1")
           return state.currentlyFetching=true;
       },
       fetchDone : (state)=>{
-        console.log("fiest2")
           return state.currentlyFetching=false;
       }
     },

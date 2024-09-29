@@ -25,7 +25,7 @@ function Contact() {
     alert("Message Sent SuccessFully!")
   };
   return (
-    <div className="mt-[110px] md:px-16 px-5">
+    <div className="mt-[110px] md:px-16 px-5 h-screen">
       <h1 className="text-2xl bg-slate-200 text-center p-2 capitalize mb-6">
         {" "}
         Feel free to contact

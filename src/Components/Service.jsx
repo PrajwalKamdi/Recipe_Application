@@ -2,7 +2,7 @@ import React from "react";
 
 function Service() {
   return (
-    <div className="mt-[110px] px-5 md:px-16  font-serif">
+    <div className="mt-[110px] px-5 md:px-16  font-serif h-screen">
      <h1 className="text-2xl bg-slate-200 text-center p-2"> Our Service</h1>
      <div className="space-y-1 md:w-1/2 border p-5 m-5 mx-auto bg-neutral-300">
       <p className="capitalize text-lg font-semibold ">Hello, My name  is prajwal</p>
