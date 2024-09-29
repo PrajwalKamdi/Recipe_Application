@@ -39,8 +39,8 @@ function AllRecipe() {
             <BiSearch />
           </button>
         </div>
-        <h1 className="text-xl font-semibold py-2">
-          Most Trending Recipe You Should Try
+        <h1 className="text-xl font-semibold py-2 capitalize">
+          Delicious recipes at you fingertips, anytime & anywhere
         </h1>
 
         {loading ? (
