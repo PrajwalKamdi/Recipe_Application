@@ -27,7 +27,7 @@ function AllRecipe() {
   return (
     <>
       <main className="mt-[80px] p-5 md:px-16 font-serif">
-        <div className="border  flex justify-between items-center">
+        <div className="border shadow-sm flex justify-between items-center">
           <input
             type="text"
             className="outline-none px-2 w-full"
@@ -35,7 +35,7 @@ function AllRecipe() {
             placeholder="Search For Recipe"
             onChange={ok}
           />
-          <button className="border p-2 bg-slate-200">
+          <button className="border p-2 shadow-sm bg-slate-200">
             <BiSearch size={20}/>
           </button>
         </div>
