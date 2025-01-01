@@ -8,7 +8,10 @@ function Footer() {
         <footer className='px-10 '>
             <div className='flex items-center gap-1 justify-center py-1'>
             <LiaCopyright size={20}/>
-             2024 All Rights Reserved
+             2025 All Rights Reserved
+            </div>
+            <div className='text-center py-1'>
+              Developed By Prajwal
             </div>
            <div className='flex items-center justify-center gap-1'>
             <p>Made with</p>
